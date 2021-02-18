@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  background: black;
+}
+
+#background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.timer {
+  text-align: center;
+  z-index: 1;
+}
+
+.timer__title {
+  font-weight: 400;
+  font-size: 3vw; 
+}
+
+.timer__time {
+  font-size: 10vw; 
+  font-weight: 900;
+}

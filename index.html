@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Perseverance Rover Countdown</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+  <video autoplay muted loop id="background-video">
+    <source src="https://mars.nasa.gov/multimedia/videos/movies/20201221_Perseverance_Landing_Animation/20201221_Perseverance_Landing_Animation-1920.m4v" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="timer">
+    <h2 class="timer__title"> Time left to land on Mars </h2>
+    <h1 class="timer__time" data-js="timer"> Loading ... </h1>
+  </div>
+</body>
+  <script type="text/javascript" src="./main.js"></script>  
+</html>
