@@ -1,0 +1,9 @@
+{
+  "name": "Perseverance Rover Count-down",
+  "short_name": "Perseverance Count-down",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/"
+}
